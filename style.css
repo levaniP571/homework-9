@@ -3,7 +3,7 @@
     max-width: 1440px;
     width: 100%;
     margin: 0 auto;
-    border: 2px solid red;
+    
 
 }
 
@@ -161,4 +161,37 @@ article{
     background: #8E8B8B;
     
 }
-/* გაგრძელება */
+/* ფუტერი */
+footer{
+    width: 100%;
+    height: 217px;
+    background: #2A2626;
+    padding: 32px 125px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.footer_logo{
+    width: 9%;
+    height: 100%;
+
+}
+.footer_div{
+    width: 25%;
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    gap: 5%;
+}
+a{
+    
+    border: 2px solid #2A2626;
+    color: #F8F8F8;
+    transition-property: border;
+    transition: 1s ease;
+}
+a:hover{
+    border: 3px solid green;
+}
